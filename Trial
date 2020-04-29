@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jeremy L.G.</title>
+	<style>
+		header { 
+		text-align: center;
+		background-size: cover;
+		color: black;
+	}
+	a {
+		color: white;
+	}
+	h1 {
+		text-align: center;
+		color: white;
+		font-size: 50px;
+		text-shadow: 0 0 5px red;
+		
+	}
+	body{
+		text-align: center;
+		background-color: rgb(220,236,247);
+      background-size: cover;
+      background-position: center;
+      color: black;
+      font-family: helvetica;
+	}
+	img {
+		margin: 10px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+     
+  		}
+	ul {
+		padding: 10px;
+		background: black;
+	}
+	li {
+		display: inline;
+		padding: 0px 10px 0px 10px;
+	}
+	article {max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;}
+      @media (max-width: 500px) {
+      	h1 {
+      		font-size: 36px;
+        padding: 5px; 
+      }
+   
+      li {
+        padding: 5px;
+        display: block;
+      }
+    input{
+    	text-align: center;
+    	border: 0;
+    	padding: 200px
+    	font-size: 18px;
+    }
+    input[type="submit"] {
+    	background: red;
+    	color: white;
+    }
+     }
+	</style>
+	<h1> Jeremy's Blog</h1>
+</head>
+<body>
+	<center>
+	<img src="Unknown.jpg">
+	</center>
+	<header>
+		<ul>
+			<li><a href="#">About Me</a></li>
+			<li><a href="#">Favorites</a></li>
+			<li><a href="#">Interests</a></li>
+		</ul>
+	</header>
+
+	<article>
+	<p> Hi! My name is Jeremy and l'm 3 years old. I'm from Keller, TX. I live with my mum and dad in Keller. I attend Children's Lighthouse Day Care in Keller. Say Hello!!</p>
+	</article>
+	<input type="email" placeholder="Your email">
+	<input type="submit">
+
+</body>
+</html>
+
+<link rel="stylesheet" href="styles.css">
+
